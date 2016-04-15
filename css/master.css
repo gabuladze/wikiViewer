@@ -1,0 +1,8 @@
+* {border-radius: 0 !important;}
+body {
+    background-color: #22313F;
+}
+
+.upCase {
+  text-transform: uppercase;
+}
