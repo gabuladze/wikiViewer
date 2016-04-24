@@ -1,8 +1,30 @@
 * {border-radius: 0 !important;}
 body {
     background-color: #22313F;
+    color: #FFFFFF;
 }
 
 .upCase {
   text-transform: uppercase;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+li  {
+  margin-top: 20px;
+  padding: 20px;
+  padding-bottom: 20px;
+  background-color: #FFFFFF;
+  color: #22313F;
+}
+
+li:hover {
+  padding-bottom: 10px;
+  border-bottom: 10px solid #F64747;
+}
+
+footer {
+  color: #cccccc;
 }
