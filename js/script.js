@@ -21,7 +21,6 @@ function getArticles() {
     success: function(data) {
       articlesDiv.empty();
       var articles = data.query.search;
-      console.log(data);
       for (var i = 0; i < articles.length; i++) {
         var articleURL = "https://en.wikipedia.org/wiki/"+articles[i].title;
 
